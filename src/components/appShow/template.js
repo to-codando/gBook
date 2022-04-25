@@ -14,4 +14,10 @@ export default ({ state, props }) => /*html*/ `
             <app-filter></app-filter>
         </i>
     </app-header>
+
+    <app-container>
+        <div class="ctx-order">
+            <app-order></app-order>
+        </div>
+    </app-container>
 `

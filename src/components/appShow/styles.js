@@ -6,7 +6,7 @@ ${root} {
 }  
 
 ${root} .ctx-order {
-    padding: 2rem 0;
+    padding: 2rem 0 1rem 0;
     width: 100%
 }
 `

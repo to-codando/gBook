@@ -8,6 +8,9 @@ import { appTitle } from '../appTitle'
 import { appIcon } from '../appIcon'
 import { appFilter } from '../appFilter'
 import { appOrder } from '../appOrder'
+import { appIndex } from '../appIndex'
+import { appCard } from '../appCard'
+import { appGrid } from '../appGrid'
 
 export const appShow = () => { 
 
@@ -18,7 +21,10 @@ export const appShow = () => {
         appIcon,
         appFilter,
         appOrder,
-        appContainer
+        appContainer,
+        appIndex,
+        appCard,
+        appGrid
     })
 
     return { template, styles, children }

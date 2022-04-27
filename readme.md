@@ -17,7 +17,7 @@ Utilize o npx combinado ao degit para criar um novo projeto
 PNPM é o novo padrão de gerenciador de pacotes adotado para lemejs@next
 
 ```
-pnpm serve
+pnpm start
 ```
 
 Você também pode usar npm e yarn.
@@ -25,13 +25,13 @@ Você também pode usar npm e yarn.
 Com npm
 
 ```
-npm serve
+npm start
 ```
 
 Com yarn
 
 ```
-yarn serve
+yarn start
 ```
 
 ### Acessando a aplicação no browser

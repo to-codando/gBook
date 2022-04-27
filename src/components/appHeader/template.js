@@ -1,6 +1,8 @@
 export default ({ state, props }) => /*html*/ `
+    <div class="ctx-links">
+        <i slot-id="links"></i>        
+    </div>    
     <div class="ctx-container">
-    
         <div class="ctx-title">
             <i slot-id="title"></i>
         </div>
@@ -12,6 +14,5 @@ export default ({ state, props }) => /*html*/ `
         <div class="ctx-other">
             <i slot-id="other"></i>
         </div>
-      
     </div>
 `

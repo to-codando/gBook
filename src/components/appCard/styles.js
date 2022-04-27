@@ -20,13 +20,13 @@ export default (root, props) =>   /*css*/`
         color: #9ba7b9
     }
 
-    a {
+    ${root} a {
         display: flex;
         flex-wrap: wrap;
         width:calc(100% - 100px);
     }
 
-     header {
+    ${root} header {
         display:flex;
         width:100%;
         font-size: 1.3rem;
@@ -36,7 +36,7 @@ export default (root, props) =>   /*css*/`
 
     }
 
-    content {
+    ${root} content {
         display:flex;
         flex-wrap: wrap;
         width:100%;

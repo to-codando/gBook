@@ -11,6 +11,8 @@ export default (root, props) =>   /*css*/`
         padding:.5rem 1.5rem;
         border:1px #ddd solid;
         border-radius:5px;
+        text-transform: uppercase;
+        color: #9394AA
     }   
 
     ${root} .ctx-default {
@@ -25,8 +27,16 @@ export default (root, props) =>   /*css*/`
 
     ${root} .ctx-white {
         background: #fff;
-        color: #3B4976;
-        border-color: #C3D1FF
+        color: #c4c6ee;
+        border-color: #C3D1FF;
+        padding:1rem 2rem
+    }
+
+    ${root} .ctx-blue {
+        background: #24B0FF;
+        color: #fff;
+        border-color: #C3D1FF;
+        padding:1rem 2rem
     }
 
     ${root} .ctx-glassy {
@@ -40,6 +50,14 @@ export default (root, props) =>   /*css*/`
         background:none;
         border:0;
         color:#3B4976;
+    }   
+    
+    ${root} .ctx-type-elastic {
+        width:100%
+    }
 
-    }    
+    ${root} .ctx-button:disabled {
+        background:#F1F3F9;
+        color: #D1D8EC
+    }
 `

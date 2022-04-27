@@ -16,7 +16,7 @@ export default ({ state, props }) => /*html*/ `
 
         <i slot-id="links">
             <a href="#/">Início</a>
-            <a href="#/">Cadastro</a>
+            <a href="#/create">Cadastro</a>
         </i>
     </app-header>
     <router-view></router-view>

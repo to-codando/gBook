@@ -1,7 +1,7 @@
 export default ({ state, props }) => /*html*/ `
 
     <app-search></app-search>    
-    <app-input data-name="search" data-label="buscar"></app-input>
+    <app-input data-name="search" data-label="buscar" data-icon="search"></app-input>
 
     <div class="ctx-options">
         <app-radio 

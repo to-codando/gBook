@@ -1,5 +1,11 @@
 export default ({ state, props }) => /*html*/ `
-    <button class="ctx-button ctx-${props.theme || 'default'}">
+    <button 
+        ${state.isDisabled ? 'disabled="true"' : ''}
+        class="
+            ctx-button ctx-${state.theme || 'default'} 
+            ctx-type-${state.type || 'default'}
+        "
+    >
         <slot></slot>
     </button>
 `

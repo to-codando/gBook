@@ -7,7 +7,8 @@ export const appInput = ({ props }) => {
     const state = observerFactory({
         name: props.name || empty,
         label: props.label || empty,
-        value: props.value || empty
+        value: props.value || empty,
+        icon: props.icon || null
     })
 
     return { template, styles, state }
